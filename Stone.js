@@ -26,6 +26,7 @@ class Stone {
          strokeWeight(2);
          stroke("black");
          fill("darkgray");
+         rectMode(CENTER);
          rect(0, 0, this.width, this.height);
          pop();
 
